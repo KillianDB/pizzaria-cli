@@ -5,7 +5,7 @@ const path = require('path');
 // 2 - Criar o servidor
 const servidor = express();
 
-// Define a pasta public como sendo a pasta arquivos estáticos
+// Define a pasta public como sendo a pasta arquivos estáticos(dirname=pasta atual)
 servidor.use(express.static(path.join(__dirname, 'public')))
 
 // 3 - Definir de uma rota neste servidor
