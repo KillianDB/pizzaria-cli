@@ -1,11 +1,11 @@
-{
+module.exports = {
   "development": {
     "username": "KillianDB",
     "password": "vaiplaneta",
     "database": "pizzaria_cli",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "port":"3000"
+    "port": "3000"
   },
   "test": {
     "username": "root",
